@@ -1,0 +1,11 @@
+$r: 12px;
+
+.list {
+  display: inline-block;
+  border-radius: $r;
+  padding: 10px;
+  color: #d1f845;
+  font-weight: bold;
+  background-color: #2f5cf1;
+  list-style: none;
+}
