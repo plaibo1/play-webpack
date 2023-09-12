@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .hello {
   color: #c1f019;
   /* background: url('./logo.png'); */

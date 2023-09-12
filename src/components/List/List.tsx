@@ -15,7 +15,11 @@ export const List = () => {
 
       <ul className={styles.list}>
         {data.map((item) => {
-          return <li>{item.text}</li>;
+          return (
+            <li key={item.id} className="mb-4">
+              {item.text}
+            </li>
+          );
         })}
       </ul>
     </div>
